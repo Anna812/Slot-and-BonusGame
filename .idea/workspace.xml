@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a40e470-72d7-4888-97f3-ad332170f31d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java" afterPath="$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +44,13 @@
       <file leaf-file-name="Randomizer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="432">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -767,12 +770,12 @@
       <updated>1518377284057</updated>
       <workItem from="1518377285613" duration="213000" />
       <workItem from="1518377595500" duration="738000" />
-      <workItem from="1518381138890" duration="600000" />
+      <workItem from="1518381138890" duration="1191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1551000" />
+    <option name="totallyTimeSpent" value="2142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -845,11 +848,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="432">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
           </folding>
         </state>
       </provider>

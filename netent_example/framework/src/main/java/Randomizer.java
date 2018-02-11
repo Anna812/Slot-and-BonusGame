@@ -12,5 +12,9 @@ public class Randomizer {
         random = new Random();
     }
 
-    
+    public int roll(){
+        return random.nextInt(10);
+    }
+
+
 }
