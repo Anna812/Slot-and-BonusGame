@@ -16,5 +16,12 @@ public class Randomizer {
         return random.nextInt(10);
     }
 
-
+    public boolean ifRandomIsIn30Percent() {
+        int rolledNumber = roll();
+        if(rolledNumber == 0 || rolledNumber == 1 || rolledNumber == 2) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
