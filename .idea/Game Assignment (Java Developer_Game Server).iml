@@ -2,7 +2,14 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/netent_example/slotgame/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/netent_example/framework/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/netent_example/bonusgame/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/netent_example/bonusgame/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/netent_example/framework/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/netent_example/slotgame/test" isTestSource="true" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
