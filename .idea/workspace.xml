@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a40e470-72d7-4888-97f3-ad332170f31d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java" afterPath="$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java" afterPath="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SlotGameApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SlotGameApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Randomizer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Randomizer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="528">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
@@ -85,9 +85,9 @@
       <list>
         <option value="$PROJECT_DIR$/netent_example/slotgame/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/netent_example/bonusgame/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java" />
         <option value="$PROJECT_DIR$/netent_example/bonusgame/src/main/java/BonusGameApp.java" />
         <option value="$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java" />
+        <option value="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java" />
       </list>
     </option>
   </component>
@@ -102,6 +102,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1873" />
     <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -130,6 +133,16 @@
               <option name="myItemId" value="Game Assignment (Java Developer_Game Server)" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game Assignment (Java Developer_Game Server)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game Assignment (Java Developer_Game Server)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="netent_example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -354,16 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game Assignment (Java Developer_Game Server)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game Assignment (Java Developer_Game Server)" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -770,12 +773,12 @@
       <updated>1518377284057</updated>
       <workItem from="1518377285613" duration="213000" />
       <workItem from="1518377595500" duration="738000" />
-      <workItem from="1518381138890" duration="1191000" />
+      <workItem from="1518381138890" duration="3462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2142000" />
+    <option name="totallyTimeSpent" value="4413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -830,11 +833,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java">
+    <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -846,16 +862,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
+    <entry file="file://$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
