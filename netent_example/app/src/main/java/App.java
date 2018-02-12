@@ -11,10 +11,10 @@ public class App {
         System.out.println(info);
 
         if(userInput.next().equals(1)){
-            IGame slotGame = new SlotGame();
+            Game slotGame = new SlotGame();
             startSimulation(slotGame);
         } else if (userInput.next().equals(2)) {
-            IGame bonusGame = new BonusGame();
+            Game bonusGame = new BonusGame();
             startSimulation(bonusGame);
         } else if (userInput.next().equalsIgnoreCase("q")) {
             System.out.println("Goodbye");
@@ -23,7 +23,7 @@ public class App {
         }
     }
 
-    private static void startSimulation(IGame game) {
+    private static void startSimulation(Game game) {
         for(int i = 0; i < 1000000; i++) {
             game.play();
         }
