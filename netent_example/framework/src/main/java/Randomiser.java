@@ -16,19 +16,11 @@ public class Randomiser {
 
     public boolean ifRandomIsIn30Percent() {
         int rolledNumber = roll();
-        if(rolledNumber == 0 || rolledNumber == 1 || rolledNumber == 2) {
-            return true;
-        } else {
-            return false;
-        }
+        return rolledNumber == 0 || rolledNumber == 1 || rolledNumber == 2;
     }
 
     public boolean ifRandomIsIn10Percent() {
         int rolledNumber = roll();
-        if(rolledNumber == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return rolledNumber == 0;
     }
 }
