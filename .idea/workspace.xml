@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a40e470-72d7-4888-97f3-ad332170f31d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/pom.xml" afterPath="$PROJECT_DIR$/netent_example/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netent_example/framework/src/main/java/IGameLogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/bonusgame/src/main/java/BonusGameLogic.java" afterPath="$PROJECT_DIR$/netent_example/bonusgame/src/main/java/BonusGameLogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/framework/src/main/java/App.java" afterPath="$PROJECT_DIR$/netent_example/framework/src/main/java/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameLogic.java" afterPath="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameLogic.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,18 +26,8 @@
       <file leaf-file-name="IGameLogic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/IGameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netent_example/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -70,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Randomizer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Randomizer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="528">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
@@ -122,7 +115,6 @@
         <option value="$PROJECT_DIR$/netent_example/slotgame/src/main/java/SlotGameLogic.java" />
         <option value="$PROJECT_DIR$/netent_example/bonusgame/src/main/java/BonusGameLogic.java" />
         <option value="$PROJECT_DIR$/netent_example/framework/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/netent_example/pom.xml" />
       </list>
     </option>
   </component>
@@ -808,12 +800,12 @@
       <updated>1518377284057</updated>
       <workItem from="1518377285613" duration="213000" />
       <workItem from="1518377595500" duration="738000" />
-      <workItem from="1518381138890" duration="6591000" />
+      <workItem from="1518381138890" duration="6172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7542000" />
+    <option name="totallyTimeSpent" value="7123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -861,10 +853,6 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/netent_example/slotgame/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -878,6 +866,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/IGameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -908,30 +904,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/Randomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="528">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#201#202#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netent_example/framework/src/main/java/IGameLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netent_example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
