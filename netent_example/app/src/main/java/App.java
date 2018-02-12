@@ -1,5 +1,3 @@
-package main.java;
-
 import java.util.Scanner;
 
 /**
@@ -13,10 +11,10 @@ public class App {
         System.out.println(info);
 
         if(userInput.next().equals(1)){
-            IGameLogic slotGame = new SlotGameLogic();
+            IGame slotGame = new SlotGame();
             startSimulation(slotGame);
         } else if (userInput.next().equals(2)) {
-            IGameLogic bonusGame = new BonusGameLogic();
+            IGame bonusGame = new BonusGame();
             startSimulation(bonusGame);
         } else if (userInput.next().equalsIgnoreCase("q")) {
             System.out.println("Goodbye");
@@ -25,9 +23,9 @@ public class App {
         }
     }
 
-    private static void startSimulation(IGameLogic gameLogic) {
+    private static void startSimulation(IGame game) {
         for(int i = 0; i < 1000000; i++) {
-            gameLogic.play();
+            game.play();
         }
     }
 }

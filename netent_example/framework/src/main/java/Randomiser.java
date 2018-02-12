@@ -1,14 +1,12 @@
-package main.java;
-
 import java.util.Random;
 
 /**
- * Created by Anna on 18/02/11.
+ * Created by Anna on 18/02/12.
  */
-public class Randomizer {
+public class Randomiser {
     private Random random;
 
-    public Randomizer() {
+    public Randomiser() {
         random = new Random();
     }
 

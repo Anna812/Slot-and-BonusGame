@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bonusgame/bonusgame.iml" filepath="$PROJECT_DIR$/bonusgame/bonusgame.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/netentTest.iml" filepath="$PROJECT_DIR$/netentTest.iml" />
@@ -9,4 +10,3 @@
     </modules>
   </component>
 </project>
-
