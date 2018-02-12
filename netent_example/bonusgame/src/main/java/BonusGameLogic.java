@@ -3,8 +3,10 @@ package main.java;
 /**
  * Created by Anna on 18/02/11.
  */
-public class BonusGameLogic {
+public class BonusGameLogic implements  IGameLogic{
 
-    private static void startBonusGameSimulation() {
+    @Override
+    public void play() {
+
     }
 }

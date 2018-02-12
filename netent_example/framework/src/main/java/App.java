@@ -13,13 +13,21 @@ public class App {
         System.out.println(info);
 
         if(userInput.next().equals(1)){
-            play();
+            IGameLogic slotGame = new SlotGameLogic();
+            startSimulation(slotGame);
         } else if (userInput.next().equals(2)) {
-            play();
+            IGameLogic bonusGame = new BonusGameLogic();
+            startSimulation(bonusGame);
         } else if (userInput.next().equalsIgnoreCase("q")) {
             System.out.println("Goodbye");
         } else {
             System.out.println(info);
+        }
+    }
+
+    private static void startSimulation(IGameLogic gameLogic) {
+        for(int i = 0; i < 1000000; i++) {
+            gameLogic.play();
         }
     }
 }

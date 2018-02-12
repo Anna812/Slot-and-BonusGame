@@ -4,8 +4,10 @@ package main.java;
 /**
  * Created by Anna on 18/02/11.
  */
-public class SlotGameLogic {
+public class SlotGameLogic implements IGameLogic {
 
-    private static void startSlotGameSimulation() {
+    @Override
+    public void play() {
+
     }
 }
