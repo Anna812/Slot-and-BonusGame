@@ -7,6 +7,8 @@ public class SlotGame implements IGame {
 
     @Autowired
     private Randomiser randomiser;
+    @Autowired
+    public Stats stats;
 
     boolean isFree;
 
@@ -14,17 +16,15 @@ public class SlotGame implements IGame {
         isFreeGame();
 
         if(randomiser.ifRandomIsIn30Percent()) {
-            // add 20 coins
+            stats.win += 20;
         } else if (randomiser.ifRandomIsIn10Percent()){
             isFree = true;
-        } else {
-            // log lost game
         }
     }
 
     private void isFreeGame() {
         if(!isFree){
-            // -10 coins
+            stats.bet +=10;
         } else {
             isFree = false;
         }
