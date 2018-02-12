@@ -10,16 +10,20 @@ public class App {
         String info = "Press 1 to start SlotGame simulation, 2 for BonusGame or \"q\" to stop the program";
         System.out.println(info);
 
-        if(userInput.next().equals(1)){
-            Game slotGame = new SlotGame();
-            startSimulation(slotGame);
-        } else if (userInput.next().equals(2)) {
-            Game bonusGame = new BonusGame();
-            startSimulation(bonusGame);
-        } else if (userInput.next().equalsIgnoreCase("q")) {
-            System.out.println("Goodbye");
-        } else {
-            System.out.println(info);
+        while(userInput.hasNext()) {
+            String input = userInput.next();
+            if(input.equals("1")){
+                Game slotGame = new SlotGame();
+                startSimulation(slotGame);
+                System.out.println("wins:" + slotGame.stats.win);
+            } else if (input.equals("2")) {
+                Game bonusGame = new BonusGame();
+                startSimulation(bonusGame);
+            } else if (input.equalsIgnoreCase("q")) {
+                System.out.println("Goodbye");
+            } else {
+                System.out.println(info);
+            }
         }
     }
 

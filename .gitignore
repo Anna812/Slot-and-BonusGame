@@ -51,3 +51,9 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+netent_example/app/target/classes/App.class
+netent_example/bonusgame/target/classes/BonusGame.class
+netent_example/framework/target/classes/Game.class
+netent_example/framework/target/classes/Randomiser.class
+netent_example/framework/target/classes/Stats.class
+netent_example/slotgame/target/classes/SlotGame.class

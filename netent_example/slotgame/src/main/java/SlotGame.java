@@ -3,7 +3,7 @@
  */
 public class SlotGame extends Game {
 
-    boolean isFree;
+    boolean isFree =  false;
 
     public void play() {
         isFreeGame();
