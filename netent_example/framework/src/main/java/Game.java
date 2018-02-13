@@ -5,7 +5,7 @@ public abstract class Game {
     protected Randomiser randomiser;
     public Stats stats;
 
-    public Game(Randomiser randomiser, Stats stats){
+    protected Game(Randomiser randomiser, Stats stats){
         this.randomiser = randomiser;
         this.stats = stats;
     }

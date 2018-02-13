@@ -12,23 +12,20 @@ public class App {
         Stats stats = new Stats();
 
         System.out.println(info);
-
-        while(userInput.hasNext()) {
-            String input = userInput.next();
-            if(input.equals("1")){
-                Game slotGame = new SlotGame(randomiser, stats);
-                startSimulation(slotGame);
-                System.out.println("win:" + slotGame.stats.win);
-                System.out.println("bet:" + slotGame.stats.bet);
-                System.out.println("free:" + slotGame.stats.free);
-            } else if (input.equals("2")) {
-                Game bonusGame = new BonusGame(randomiser, stats);
-                startSimulation(bonusGame);
-            } else if (input.equalsIgnoreCase("q")) {
-                System.out.println("Goodbye");
-            } else {
-                System.out.println(info);
-            }
+        String input = userInput.next();
+        if(input.equals("1")){
+            Game slotGame = new SlotGame(randomiser, stats);
+            startSimulation(slotGame);
+            System.out.println("win:" + slotGame.stats.win);
+            System.out.println("bet:" + slotGame.stats.bet);
+            System.out.println("free:" + slotGame.stats.free);
+        } else if (input.equals("2")) {
+            Game bonusGame = new BonusGame(randomiser, stats);
+            startSimulation(bonusGame);
+        } else if (input.equalsIgnoreCase("q")) {
+            System.out.println("Goodbye");
+        } else {
+            System.out.println(info);
         }
     }
 
