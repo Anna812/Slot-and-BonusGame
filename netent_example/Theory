@@ -1,0 +1,18 @@
+SlotGame Probabilities ----------------------------------------------------------------------------------------------
+    - 30% chance of winning 20 coins
+    - 10% chance of winning free game
+    - from 10 bets statistically 90 coins will be income, and 60 will be won by the player
+
+BonusGame Probabilities ----------------------------------------------------------------------------------------------
+    - 10% chance of triggering bonus round
+    - opening the right boxes in order are:
+        1. 80% chance
+        2. 75% chance
+        3. 66,66% chance
+        4. 50% chance
+    - chances of winning(finding the right box in given round, but failing in next):
+        5 coins = 80% * 25%
+        10 coins = 80% * 75% * 33.33%
+        15 coins = 80% * 75% * 66,66% * 50%
+        20 coins = 80% * 75% * 66,66% * 50% * 100%
+    - from 10 bets statistically 90 coins will be income, 5*0.8*0.25 + 10*0.8*0.75*0.3333 + 15*0.8*0.75*0.6666*0.5 + 20*0.8*0.75*0.6666*0.5*1 = 1 + 1.9998 + 2.9997 + 3.9996 = 9.9991 will be won by the player

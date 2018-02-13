@@ -23,7 +23,7 @@ public class BonusGame extends Game {
     private void placeBet() {
         stats.bet += 10;
         if(randomiser.ifRandomIsIn10Percent()) {
-            stats.bonus ++;
+            stats.bonus++;
             isBonus = true;
         }
     }
