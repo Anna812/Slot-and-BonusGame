@@ -2,7 +2,7 @@
  * Created by Anna on 18/02/12.
  */
 public class SlotGame extends Game {
-    boolean isFree = false;
+    private boolean isFree = false;
 
     public SlotGame(Randomiser randomiser, Stats stats) {
         super(randomiser, stats);

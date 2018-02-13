@@ -25,6 +25,8 @@ public class App {
             System.out.println("win:" + bonusGame.stats.win);
             System.out.println("bet:" + bonusGame.stats.bet);
             System.out.println("bonus:" + bonusGame.stats.bonus);
+            System.out.println("winner box is picked:" + bonusGame.stats.winnerBoxPicked);
+
         } else if (input.equalsIgnoreCase("q")) {
             System.out.println("Goodbye");
         } else {

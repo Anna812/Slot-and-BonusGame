@@ -6,16 +6,25 @@ import java.util.Collections;
  * Created by Anna on 18/02/12.
  */
 public class BonusGame extends Game {
+    private boolean isBonus = false;
 
     public BonusGame(Randomiser randomiser, Stats stats) {
         super(randomiser, stats);
     }
 
     public void play() {
+        if(isBonus) {
+            startBoxGame();
+        } else {
+            placeBet();
+        }
+    }
+
+    private void placeBet() {
         stats.bet += 10;
         if(randomiser.ifRandomIsIn10Percent()) {
             stats.bonus ++;
-            startBoxGame();
+            isBonus = true;
         }
     }
 
@@ -27,7 +36,9 @@ public class BonusGame extends Game {
         for(int i = 1; i < 5; i++ ) {
             if(boxes.get(i) != numberOfLoserBox) {
                 stats.win += 5;
+                stats.winnerBoxPicked++;
             }
         }
+        isBonus = false;
     }
 }

@@ -6,4 +6,5 @@ public class Stats {
     public int bet;
     public int free;
     public int bonus;
+    public int winnerBoxPicked;
 }
