@@ -33,7 +33,7 @@ public class BonusGame extends Game {
         Collections.shuffle(boxes);
         int numberOfLoserBox = randomiser.roll(5) + 1;
 
-        for(int i = 1; i < 5; i++ ) {
+        for(int i = 0; i < 4; i++ ) {
             if(boxes.get(i) != numberOfLoserBox) {
                 stats.win += 5;
                 stats.winnerBoxPicked++;
