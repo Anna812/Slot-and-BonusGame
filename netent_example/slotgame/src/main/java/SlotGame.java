@@ -3,7 +3,7 @@
  */
 public class SlotGame extends Game {
 
-    boolean isFree =  false;
+    boolean isFree = false;
 
     public void play() {
         isFreeGame();
@@ -12,6 +12,7 @@ public class SlotGame extends Game {
             stats.win += 20;
         } else if (randomiser.ifRandomIsIn10Percent()){
             isFree = true;
+            stats.free++;
         }
     }
 
