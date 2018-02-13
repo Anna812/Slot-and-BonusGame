@@ -1,5 +1,3 @@
-import com.sun.media.sound.RealTimeSequencerProvider;
-
 import java.util.Scanner;
 
 /**
