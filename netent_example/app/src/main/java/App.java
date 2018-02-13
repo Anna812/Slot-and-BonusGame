@@ -1,3 +1,5 @@
+import com.sun.media.sound.RealTimeSequencerProvider;
+
 import java.util.Scanner;
 
 /**
@@ -16,17 +18,18 @@ public class App {
         if(input.equals("1")){
             Game slotGame = new SlotGame(randomiser, stats);
             startSimulation(slotGame);
-            System.out.println("win:" + slotGame.stats.win);
-            System.out.println("bet:" + slotGame.stats.bet);
-            System.out.println("free:" + slotGame.stats.free);
+            System.out.println("RTP: " + (double) slotGame.stats.win/slotGame.stats.bet);
+            System.out.println("win: " + slotGame.stats.win);
+            System.out.println("bet: " + slotGame.stats.bet);
+            System.out.println("free: " + slotGame.stats.free);
         } else if (input.equals("2")) {
             Game bonusGame = new BonusGame(randomiser, stats);
             startSimulation(bonusGame);
-            System.out.println("win:" + bonusGame.stats.win);
-            System.out.println("bet:" + bonusGame.stats.bet);
-            System.out.println("bonus:" + bonusGame.stats.bonus);
-            System.out.println("winner box is picked:" + bonusGame.stats.winnerBoxPicked);
-
+            System.out.println("RTP: " + (double) bonusGame.stats.win / bonusGame.stats.bet);
+            System.out.println("win: " + bonusGame.stats.win);
+            System.out.println("bet: " + bonusGame.stats.bet);
+            System.out.println("bonus: " + bonusGame.stats.bonus);
+            System.out.println("winner box is picked: " + bonusGame.stats.winnerBoxPicked);
         } else if (input.equalsIgnoreCase("q")) {
             System.out.println("Goodbye");
         } else {
