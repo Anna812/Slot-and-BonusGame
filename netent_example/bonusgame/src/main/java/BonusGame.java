@@ -14,6 +14,7 @@ public class BonusGame extends Game {
     public void play() {
         stats.bet += 10;
         if(randomiser.ifRandomIsIn10Percent()) {
+            stats.bonus ++;
             startBoxGame();
         }
     }

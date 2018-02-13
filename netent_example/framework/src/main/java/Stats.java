@@ -5,4 +5,5 @@ public class Stats {
     public int win;
     public int bet;
     public int free;
+    public int bonus;
 }

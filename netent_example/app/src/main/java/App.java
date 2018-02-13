@@ -22,6 +22,9 @@ public class App {
         } else if (input.equals("2")) {
             Game bonusGame = new BonusGame(randomiser, stats);
             startSimulation(bonusGame);
+            System.out.println("win:" + bonusGame.stats.win);
+            System.out.println("bet:" + bonusGame.stats.bet);
+            System.out.println("bonus:" + bonusGame.stats.bonus);
         } else if (input.equalsIgnoreCase("q")) {
             System.out.println("Goodbye");
         } else {
