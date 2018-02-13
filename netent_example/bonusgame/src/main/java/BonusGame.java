@@ -37,6 +37,8 @@ public class BonusGame extends Game {
             if(boxes.get(i) != numberOfLoserBox) {
                 stats.win += 5;
                 stats.winnerBoxPicked++;
+            } else {
+                break;
             }
         }
         isBonus = false;
