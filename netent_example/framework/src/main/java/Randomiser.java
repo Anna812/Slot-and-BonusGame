@@ -1,10 +1,8 @@
-import org.springframework.stereotype.Component;
 import java.util.Random;
 
 /**
  * Created by Anna on 18/02/12.
  */
-@Component
 public class Randomiser {
     private Random random;
 

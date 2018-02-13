@@ -4,6 +4,10 @@
 public class SlotGame extends Game {
     boolean isFree = false;
 
+    public SlotGame(Randomiser randomiser, Stats stats) {
+        super(randomiser, stats);
+    }
+
     public void play() {
         isFreeGame();
 
